@@ -1,5 +1,6 @@
 body{
     background-image: url("img/fundo.jpeg");
+    color: white;
 }
 
 .logo {
@@ -22,3 +23,5 @@ body{
     height: 100px; 
     position: absolute;
 }
+
+
