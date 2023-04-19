@@ -24,4 +24,7 @@ body{
     position: absolute;
 }
 
+h1,form{
+    text-align: center;
+}
 
