@@ -2,43 +2,36 @@ body{
   background-image:url("img/fundo.jpeg");
 }
 
+h3{
+  color:white;
+}
+
 .center {
     background:black;
-    width: 70%;
-    margin: 0px 0px 0px 470px ;
+    width: 100%;
+    margin: -10px 0px 0px 0px ;
     height: 100px;
   }
   
 .face{
     height: 400px;
-    left: 800px;
+    left: 550px;
     top:-160px;
     position: absolute;
 }  
 
-.outside {
-    margin: -150px 30px 0px 0px;
-    background: black;
-    width: 20%;
-    height:100x;
-  }
 
   .fale{
     height: 400px;
-    left: 60px;
-    top:20px;
+    left: 50px;
+    top:-5px;
     position: absolute;
-    width: 150px;
-    height: 150px;
-}
-
-p{
-  color:white;
-  font-size: 2rem;
+    width: 100px;
+    height: 100px;
 }
 
 .vale{
-  font-size: 2rem;
+  font: size 0.5em;
   background-color: black;
   border: black;
   color: white;
@@ -53,13 +46,14 @@ p{
 
 .cassio { 
 	display: flex;
-  justify-content: end;
+  justify-content:;
+  height: 30px;
 }
 
 .renan{
   background:black;
-  width: 70%;
-  margin: 0px 10px 0px 470px ;
+  width: 100%;
+  margin: 0px 0px 0px 0px ;
   height: 31px;
 }
 
@@ -71,8 +65,8 @@ top: 232px;
 }
 
 .gato{
-  height:;
   left: 118px;
   top: 30px;
   position: absolute;
 }
+
