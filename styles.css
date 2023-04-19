@@ -1,0 +1,126 @@
+body{
+  background-image:url("img/fundo.jpeg");
+}
+
+h3{
+  color:white;
+}
+
+.center {
+    background:black;
+    width: 100%;
+    margin: -10px 0px 0px 0px ;
+    height: 100px;
+  }
+  
+.face{
+    height: 400px;
+    left: 550px;
+    top:-160px;
+    position: absolute;
+}  
+
+
+  .fale{
+    height: 400px;
+    left: 50px;
+    top:-5px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.vale{
+  font: size 0.5em;
+  background-color: black;
+  border: black;
+  color: white;
+}
+
+.navbar{
+  height: 300px;
+  display: flex;
+  justify-content: end;
+
+}
+
+.otavio{
+position: absolute;
+left: 352px;
+top: 232px;
+
+}
+
+.gato{
+  left: 118px;
+  top: 30px;
+  position: absolute;
+}
+
+
+
+section {
+  position: fixed;
+  left: 0;
+  bottom: 12px;
+  width: 100%;
+  background: #000000;
+  padding-top: 0px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 0 30px;
+}
+
+h2{
+  color: white;
+}
+
+hr{
+  color: white;
+  width: 40%;
+}
+
+.insta{
+  width: 130px;
+  height: 60px;
+}
+.posinsta{
+  height: 200px;
+	width: 425px;
+	position:absolute;
+	top:15px;
+	left:655px;
+}
+
+.net{
+  width: 49px;
+  height: 49px;
+}
+.posinet{
+  height: 200px;
+	width: 425px;
+	position:absolute;
+	top:20px;
+	left:750px;
+}
+
+.faceb{
+  width: 79px;
+  height: 44px;
+}
+.posiface{
+  height: 200px;
+	width: 425px;
+	position:absolute;
+	top:22px;
+	left:790px;
+}
+
+h4{
+  color: white;
+  text-align: center;
+}
