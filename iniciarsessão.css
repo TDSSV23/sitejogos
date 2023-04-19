@@ -1,5 +1,6 @@
 body{
     background-image: url("img/fundo.jpeg");
+    color: white;
 }
 
 .logo {
@@ -16,3 +17,14 @@ body{
     top:-150px;
     position: absolute;
 }
+
+.logopequena{
+    margin:0px 0px 0px 0px;
+    height: 100px; 
+    position: absolute;
+}
+
+h1,form{
+    text-align: center;
+}
+
