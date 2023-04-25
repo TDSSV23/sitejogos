@@ -31,7 +31,7 @@ input:focus {
 body {
     height: 100vh;
     background-image: url("../img/fundo.jpeg");
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     color: white;
 }
