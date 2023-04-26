@@ -1,138 +1,159 @@
 body {
-    margin: 0;
-    background-image:url("img/fundo.jpeg");
-    font-family: "Euclid Circular A", "Poppins";
-    color: #f7f7f7;
-  }
-  
-  section {
-    position: fixed;
-    left: 0;
-    bottom: 12px;
-    width: 100%;
-    background: #172940;
-    padding-top: 60px;
-  }
-  
-  .logo{
-    background-color: black;
-    width: 99%;
-    margin: -17px 0px 0px -17px;
-    height: 100px;
-    position: absolute;
-  }
+  margin: 0;
+  background-image:url("img/fundo.jpeg");
+  font-family: "Euclid Circular A", "Poppins";
+  color: #f7f7f7;
+}
 
-  .editarlogo{
-    height: 400px;
-    left: 450px;
-    top: -150px;
-    position: absolute;
-  }
-  .logop{
-    margin: -17px 0px 0px -17px;
-    height: 100px;
-    position: absolute;
-  }
-  
-  .container{ 
-    width: 60%;
-    height: auto;
-    background-color: black;
-    margin-top: 0rem;
-    padding-bottom: 3rem;
-    padding-left: 70px; 
-    margin-left: 70px;
-  }
-  .assunto{
-    width: 90%;
-  }
-  .pergunta{
-    width: 90%;
-    height: 7rem;
-    
-  }
-  .center {
-    text-align: center;
-  }
-  .enviar {
-    width: 70px;
-    height: 35px;
-    background-color: #1988ffc4;
-    color: #f7f7f7;
-    position: relative;
-    width: 70px;
-    left: 10px;
-  }
- 
+section {
+  position: fixed;
+  left: 0;
+  bottom: 12px;
+  width: 100%;
+  background: #172940;
+  padding-top: 60px;
+}
 
-  section {
-    position: fixed;
-    left: 0;
-    bottom: 12px;
-    width: 100%;
-    background: #000000;
-    padding-top: 0px;
-  }
+.logo{
+  background-color: black;
+  width: 99%;
+  margin: -17px 0px 0px -17px;
+  height: 100px;
+  position: absolute;
+}
+
+.editarlogo{
+  height: 400px;
+  left: 450px;
+  top: -150px;
+  position: absolute;
+}
+.logop{
+  margin: -17px 0px 0px -17px;
+  height: 100px;
+  position: absolute;
+}
+
+.container{ 
+  width: 60%;
+  height: auto;
+  background-color: black;
+  margin-top: 0rem;
+  padding-bottom: 3rem;
+  padding-left: 70px; 
+  margin-left: 70px;
+}
+.assunto{
+  width: 90%;
+}
+.pergunta{
+  width: 90%;
+  height: 7rem;
   
-  footer {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    margin: 0 30px;
-  }
-  
-  h2{
-    color: white;
-  }
-  
-  hr{
-    color: white;
-    width: 40%;
-  }
-  
-  .insta{
-    width:90px;
-    height: 70px;
+}
+.center {
+  text-align: center;
+}
+.enviar {
+  width: 70px;
+  height: 35px;
+  background-color: #1988ffc4;
+  color: #f7f7f7;
+  position: relative;
+  width: 70px;
+  left: 10px;
+}
+
+section {
+  position: fixed;
+  left: 0;
+  bottom: 12px;
+  width: 100%;
+  background: #000000;
+  padding-top: 0px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 0 30px;
+}
+
+h2{
+  color: white;
+}
+
+hr{
+  color: white;
+  width: 40%;
+}
+
+.insta{
+  width:90px;
+  height: 70px;
+  position:absolute;
+  top:1px;
+  left:25px;
+  line-height: 90px;
+}
+.posinsta{
+  height: 200px;
+    width: 405px;
     position:absolute;
-    top:1px;
-    left:25px;
-    line-height: 90px;
-  }
-  .posinsta{
-    height: 200px;
-      width: 405px;
-      position:absolute;
-      top:5px;
-      left:990px;
-  }
-  
-  .net{
-    width: 49px;
-    height: 49px;
-  }
-  .posinet{
-    height: 200px;
-      width: 425px;
-      position:absolute;
-      top:15px;
-      left:1090px;
-  }
-  
-  .faceb{
-    width: 79px;
-    height: 44px;
-  }
-  .posiface{
-    height: 200px;
-      width: 425px;
-      position:absolute;
-      top:22px;
-      left:1140px;
-  }
-  
-  h4{
-    color: white;
-    text-align: center;
+    top:5px;
+    left:990px;
+}
+
+.net{
+  width: 49px;
+  height: 49px;
+}
+.posinet{
+  height: 200px;
+    width: 425px;
+    position:absolute;
+    top:15px;
+    left:1090px;
+}
+
+.faceb{
+  width: 79px;
+  height: 44px;
+}
+.posiface{
+  height: 200px;
+    width: 425px;
+    position:absolute;
+    top:22px;
+    left:1140px;
+}
+
+h4{
+  color: white;
+  text-align: center;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 300;
+  padding: 20px;
+  background: black;
+  width: 100%;
+}
+
+footer a {
+  padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+  footer {
+      flex-direction: column;
+      text-align: center;
   }
 
-
+  footer>p {
+      margin: 10px;
+  }
+}
