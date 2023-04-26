@@ -1,5 +1,5 @@
 body{
-  background-image:url();
+  background-image:url(img/fundo.jpeg);
 }
 
 .cor{
@@ -7,29 +7,34 @@ body{
   font-size: 1rem;
 }
 
-.center {
-    background:black;
-    width: 100%;
-    margin: -10px 0px 0px 0px ;
-    height: 100px;
-  }
-  
-.face{
-    height: 400px;
-    left: 550px;
-    top:-160px;
-    position: absolute;
-}  
 
-
-  .fale{
-    height: 390px;
-    left: 40px;
-    top:-10px;
-    position: absolute;
-    width: 100px;
-    height: 100px;
+.header-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
 }
+
+.header-center-logo {
+  height: 400px;
+  margin-top: -150px;
+  margin-bottom: -150px;
+  z-index: 10;
+}
+
+.logo-top-teste {
+  display: block;
+  margin: auto;
+  height: 400px;
+  object-fit: cover;
+}
+
+.header-left {
+  margin-top: -95px;
+}
+
+ 
 
 .vale{
   font: size 0.5em;
@@ -45,108 +50,366 @@ body{
 
 }
 
-.otavio{
-position: absolute;
-left: 352px;
-top: 232px;
 
+.button {
+  --color: #811d88;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: .3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+ }
+ 
+ .button::before, .button::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+ }
+ 
+ .button::before {
+  top: -1em;
+  left: -1em;
+ }
+ 
+ .button::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+ }
+ 
+ .button:hover::before, .button:hover::after {
+  height: 410px;
+  width: 410px;
+ }
+ 
+ .button:hover {
+  color: rgb(141, 11, 139);
+ }
+ 
+ .button:active {
+  filter: brightness(.8);
+ }
+
+ .botao{
+  margin-left: 1050px;
+  margin-top: -75px;
+ }
+
+.btarefa{
+  background:black;
+    width: 100%;
+    margin: 0px 0px 0px 0px ;
+    height: 50px;
 }
 
-.gato{
-  left: 118px;
-  top: 30px;
-  position: absolute;
+
+
+.caua{
+    margin:0 auto;
+    margin-left: 200px;
+    margin-top: -45px;
 }
 
 
+.localizaçãoslide {
+  padding-top: 50px;
+ 
+}
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
-section {
+
+.div-slider{
+width: auto;
+height: 400px;
+text-align: center;
+}
+.slides-front {
+  padding: 0;
+  width: 980px;
+  height: 370px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.slides-front * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.slides-front input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+  top: 0;
+  opacity: 0;
+  width: 980px;
+  height: 370px;
+  display: block;
   position: absolute;
-  left: 0;
-  bottom: 12px;
+
+  transform: scale(0);
+
+  transition: all .7s ease-in-out 0.1s;
+}
+
+.slide img {
   width: 100%;
-  background: #000000;
-  padding-top: 0px;
+  height: 100%;
 }
+
+.nav label {
+  width: 125px;
+  height: 100%;
+  display: none;
+  position: absolute;
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+  transition: opacity .2s;
+  color: #FFF;
+  font-size: 156pt;
+  text-align: center;
+  line-height: 380px;
+  font-family: "Varela Round", sans-serif;
+  background-color: rgba(255, 255, 255, .3);
+  text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+
+input:checked + .slide-container  .slide {
+  opacity: 1;
+
+  transform: scale(1);
+
+  transition: opacity 1s ease-in-out 0.1s;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+width: 100%;
+bottom: 9px;
+height: 11px;
+display: block;
+position: relative;
+text-align: center;
+}
+
+.nav-dots .nav-dot {
+top: 375px;
+width: 11px;
+height: 11px;
+margin: 0 4px;
+position: relative;
+border-radius: 100%;
+display: inline-block;
+background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.8);
+}
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3, {
+background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.nov{
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  margin-left: 120px;
+  margin-top: -23px;
+  position: absolute;
+  display: flex;
+  font-size: 2rem;
+}
+
+
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.jb[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.jb [type="submit"] i {
+  font-size: 1.2rem;
+}
+
+.bpesquisa{
+  margin-top: -47px;
+  margin-left: 950px;
+}
+
+
+
+
+.card-modelo img {
+  width: 12rem;
+  height: 22rem;
+  object-fit: cover;
+}
+
+.card-modelo {
+  display: inline-block;
+  position: relative;
+  margin: .4rem;
+  box-shadow: 2px white;
+  vertical-align: top;
+}
+
+.card-modelo img:hover {
+  filter: brightness(40%) blur(5px);
+  box-shadow: 0px 1px 20px 1px rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.card-modelo figcaption {
+  color: white;
+}
+
+
+.bg{
+  text-align: center;
+}
+
+.caua{
+    margin:0 auto;
+    margin-left: 200px;
+    margin-top: -48px;
+}
+
+
+/* Estilos do botão */
+.dropbtn {
+  /* background-color: #4CAF50; */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.fg{
+  margin-top: -77px;
+  margin-left: 600px;
+}
+
+/* Estilos do dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Quando o dropdown estiver aberto, exibe os itens */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+}
+
+.navigation a { 
+  text-align: center; 
+  padding: 10px;
+}
+
+.lista{
+  margin-top: 10px;
+  height: 50px;
+  font-size: 1.1rem;
+  color: white;
+}
+
 
 footer {
   display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  margin: 0 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 300;
+  padding: 20px;
+  background: black;
 }
 
-h2{
-  color: white;
+footer a {
+  padding-left: 10px;
 }
 
-.insta{
-  width: 90px;
-  height: 40px;
-}
-.posinsta{
-  height: 200px;
-	width: 425px;
-	position:absolute;
-	top:15px;
-	left:1060px;
+@media (max-width: 600px) {
+  footer {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  footer>p {
+      margin: 10px;
+  }
 }
 
-.net{
-  width: 29px;
-  height: 29px;
-}
-.posinet{
-  height: 200px;
-	width: 425px;
-	position:absolute;
-	top:20px;
-	left:1126px;
+.cortx{
+  color: #fff;
 }
 
-.faceb{
-  width: 50px;
-  height: 25px;
-}
-.posiface{
-  height: 200px;
-	width: 425px;
-	position:absolute;
-	top:22px;
-	left:1150px;
-}
-
-.slide{
-  margin: 5rem;
-  width: 45rem;
-  height: auto;
-  border-radius: 20px;
-  border: #000000 5px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.carousel-item img{
-  width: 45rem;
-  height: 25rem;
-  object-fit: cover;
-  border-radius: 4%;
-}
-
-p{
-  font-size: 1rem;
-  color: white;
-}
-
-.buscar{
-  margin-top: 1rem;
-  height: 2.5rem;
-  width: 100%;
-  border-radius: 0%;
-  text-align:center;
-  background-color: rgb(0, 0, 0);
-}
-
-.tamanho{
-  font-size: 1.5rem;
-}

@@ -13,16 +13,6 @@ html {
     box-sizing: inherit;
 }
 
-input[type=text],
-input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
 
 
 body {
@@ -64,47 +54,27 @@ body {
 
 /* HEADER-TOP FIM */
 
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
 
-/* FORM-LOGIN INICIO */
+div.img:hover {
+    border: 1px solid #777;
+}
 
-.form-login {
-    width: 50%;
-    margin: 40px auto;
-    padding: 60px;
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
     text-align: center;
-    background-color: black;
 }
 
-.form-login h2 {
-    padding-bottom: 40px;
-}
-
-.container-botao {
-    padding-top: 30px;
-}
-
-.botao-login {
-    background-color: rgb(80, 134, 215);
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 30%;
-    border-radius: 4px;
-}
-
-.botao-cadastro {
-    background-color: rgb(26,66, 126);
-    color: white;
-    padding: 8px 16px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-/* FORM-LOGIN FIM */
 
 
 /* FOOTER INICIO */
@@ -134,3 +104,4 @@ footer a {
 }
 
 /* FOOTER FIM */
+
