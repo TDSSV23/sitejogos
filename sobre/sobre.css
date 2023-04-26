@@ -1,0 +1,138 @@
+head {
+    .center {
+        background:black;
+        width: 100%;
+        margin: -10px 0px 0px 0px ;
+        height: 100px;
+      }
+}
+body {
+   background-image: url("img/fundo.jpeg");
+}
+.branco {
+    color: white;
+}
+.center {
+    background-color: black;
+    width: 99%;
+    margin: 0px 0px 0px 0px;
+    height: 100px;
+    position: absolute;
+  }
+  
+.face {
+    height: 400px;
+    left: 450px;
+    top:-150px;
+    position: absolute;
+}  
+
+  .fale {
+    height: 400px;
+    left: 50px;
+    top:-5px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.logo{
+  margin: 0px 0px 0px 0px;
+  height: 100px;
+  position: absolute;
+
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+}
+.baixo {
+  background-color: black;
+  width: 99%;
+  margin: 0px 0px 0px 0px;
+  height: 100px;
+  position: absolute;
+}
+
+.editarbaixo {
+  height: 70px;
+  left: 850px;
+  top: -10px;
+  position: absolute;
+}
+.logocartao {
+  height: 43px;
+  left: 1000px;
+  top: 100px;
+}
+
+.logotv {
+  height: 6px;
+  left: 1000px;
+  top: 100px;
+}
+
+.fotobalao {
+  height: 66px;
+  left: 1000px;
+  top: 100px;
+}
+
+section {
+  position: relative;
+  left: 0;
+  bottom: 12px;
+  width: 100%;
+  background: #000000;
+  padding-top: 0px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 0 20px;
+}
+
+h2, h4{
+  color: white;
+}
+
+.insta{
+  width: 90px;
+  height: 40px;
+}
+.posinsta{
+  height: 200px;
+	width: 425px;
+	position:absolute;
+	top:15px;
+	left:900px;
+}
+
+.net{
+  width: 29px;
+  height: 29px;
+}
+.posinet{
+  height: 200px;
+	width: 425px;
+	position:absolute;
+	top:20px;
+	left:935px;
+}
+
+.faceb{
+  width: 50px;
+  height: 25px;
+}
+.posiface{
+  height: 200px;
+	width: 425px;
+	position:absolute;
+	top:22px;
+	left:970px;
+}
