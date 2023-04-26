@@ -1,6 +1,6 @@
 body {
     /*background-color: lavender;*/
-    background-image: url("img/fundo.jpeg");
+    background-image: url("../img/fundo.jpeg");
     font-family: "euclid circular A", "Poppins";
     color: white;
 }

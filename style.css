@@ -54,3 +54,32 @@ footer a {
 .cortx{
     color: #fff;
   }
+
+.tamanho{
+    height: 400px;
+}
+.gta{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.posi{
+    margin-left: 735px;
+    margin-top: -395px;
+}
+
+.kauan{
+    color: #fff;
+    font-size: 1.5;
+    width: 450px;
+}
+
+.diego{
+    margin-left: 750px;
+}
+
+.margem{
+background-color: #8A3fa5;
+height: 400px;
+}
