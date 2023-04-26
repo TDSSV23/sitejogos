@@ -9,31 +9,54 @@
     <title>Highway</title>
 </head>
 
-<body>
     <header>
-        <div class="logo"><img class="editarlogo" src="img/logo1.png"></div>
-        <div class="logopequena"><img src="img/image 16.png"></div>
+        <div class="header-center">
+            <img src="../img/logo1.png" alt="Logo" class="header-center-logo">
+        </div>
+        <div class="header-left">
+            <img src="../img/image 16.png" alt="Logo Pequena">
+        </div>
     </header>
 
-    <div class="login">
-        <form>
-            <h1>Iniciar Sessão</h1>
-
-            <label for="usuário">Nome de Usuário:</label><br>
-            <input type="text" class="nomeusuário" id="usuário" name="usuário" value="usuário">
-            
-            <label for="senha">Senha:</label><br>
-            <input type="password" class="senha" id="senha" name="senha" value="senha">
-          
-            <input type="checkbox" id="lembre-me" name="lembre-me" value="lembre-me">
-            <label for="lembre-me"> Lembre-me </label><br>
-            
-            <br><br><br>
-            <button type="button" class="botão1">Iniciar Sesssão</button>
-            <button type="button" class="botão2">Cadastre-se </button>
+    <main>
+        <form action="#" method="post" class="form-login">
+            <h2>Iniciar Sessão</h2>
+            <p>
+                <label for="nomeusuario">
+                    <span>Nome de Usuário:</span>
+                </label>
+                <input type="text" name="nomeusuario" id="nomeusuario">
+            </p>
+            <p>
+                <label for="senha">
+                    <span>Senha:</span>
+                </label>
+                <input type="password" name="senha" id="senha">
+            </p>
+            <p>
+                <input type="checkbox" checked="checked" name="lembre-me">
+                <label for="lembre-me">Lembre-me</label>
+            </p>
+            <div class="container-botão">
+                <button type="submit" class="botão-login">Iniciar Sessão</button>
+                <button type="button" class="botão-cadastro">Cadastre-se</button>
+            </div>
         </form>
+    </main>
 
-    </div>
+    <footer>
+        <p>
+            (99)99999-9999
+        </p>
+        <p>
+            &copy; 2023 - Todos os direitos reservados
+        </p>
+        <p>
+            <a href="https://www.instagram.com/"><img src="img/instagram_44.png" alt="Logo do Instagram"></a>            
+            <a href="https://pt-br.facebook.com/"><img src="img/facebook_44.png" alt="Logo do Fecebook"></a>
+            <a href="https://www.google.com.br/"><img src="img/web_44.png" alt="Logo da internet"></a>
+        </p>
+    </footer>
 
 </body>
 

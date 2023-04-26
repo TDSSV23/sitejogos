@@ -1,83 +1,135 @@
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    background-image: url("img/fundo.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100vh;
+html {
+    box-sizing: border-box;
 }
 
-h1,
-form {
-    text-align: center;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
-h2 {
-    color: white;
-}
-
-header {
-    background-color: rgb(0, 0, 0);
-    height: 100px;
-}
-
-
-
-.editarlogo {
-    height: 400px;
-    left: 450px;
-    top: -150px;
-    position: absolute;
-}
-
-.logopequena {
-    height: 100px;
-    position: absolute;
-}
-
-.login {
-    position: absolute;
-    width: 50%;
-    padding: 60px;
-    margin: 100px 250px;
-    background: black;
-}
-
-form h1 {
-    padding-bottom: 40px;
-}
-
-form label {
-    font-size: 20px;
-}
-
-input[type="text"], input[type="password"] {
+input[type=text],
+input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
+    border-radius: 4px;
 }
 
-.botão1 {
+
+body {
+    height: 100vh;
+    background-image: url("../img/fundo.jpeg");
+    background-size: cover;
+    color: white;
+}
+
+
+/* HEADER-TOP INICIO */
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-center-logo {
+    height: 400px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    z-index: 10;
+}
+
+.logo-top-teste {
+    display: block;
+    margin: auto;
+    height: 400px;
+    object-fit: cover;
+}
+
+.header-left {
+    margin-top: -95px;
+}
+
+/* HEADER-TOP FIM */
+
+
+/* FORM-LOGIN INICIO */
+
+.form-login {
+    width: 50%;
+    margin: 40px auto;
+    padding: 60px;
     text-align: center;
+    background-color: black;
+}
+
+.form-login h2 {
+    padding-bottom: 40px;
+}
+
+.container-botão {
+    padding-top: 30px;
+}
+
+.botão-login {
     background-color: rgb(80, 134, 215);
-    padding: 15px 32px;
-    left: 50px;
-    right: 100px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 4px;
 }
 
-.botão2 {
-    text-align: center;
-    background-color: rgb(26, 66, 126);
-    padding: 7px 20px;
-    right: 100px;
-    left: 100px;
+.botão-cadastro {
+    background-color: rgb(26,66, 126);
+    color: white;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
+/* FORM-LOGIN FIM */
 
+
+/* FOOTER INICIO */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 300;
+    padding: 20px;
+    background: black;
+}
+
+footer a {
+    padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer>p {
+        margin: 10px;
+    }
+}
+
+/* FOOTER FIM */
