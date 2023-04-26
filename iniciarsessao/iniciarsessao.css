@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url("../img/fundo.jpeg");
+    background-size: cover;
+    color: white;
+    font-family: "Euclid Circular A","Poppins";
+}
+
+
+/* HEADER-TOP INICIO */
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-center-logo {
+    height: 400px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    z-index: 10;
+}
+
+.logo-top-teste {
+    display: block;
+    margin: auto;
+    height: 400px;
+    object-fit: cover;
+}
+
+.header-left {
+    margin-top: -95px;
+}
+
+/* HEADER-TOP FIM */
+
+
+/* FORM-LOGIN INICIO */
+
+.form-login {
+    width: 50%;
+    margin: 40px auto;
+    padding: 60px;
+    text-align: center;
+    background-color: black;
+}
+
+.form-login h2 {
+    padding-bottom: 40px;
+}
+
+.container-botao {
+    padding-top: 30px;
+}
+
+.botao-login {
+    background-color: rgb(80, 134, 215);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 4px;
+}
+
+.botao-cadastro {
+    background-color: rgb(26,66, 126);
+    color: white;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* FORM-LOGIN FIM */
+
+
+/* FOOTER INICIO */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 300;
+    padding: 20px;
+    background: black;
+}
+
+footer a {
+    padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer>p {
+        margin: 10px;
+    }
+}
+
+/* FOOTER FIM */
