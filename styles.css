@@ -276,7 +276,7 @@ input[type="text"] {
 
 .bpesquisa{
   margin-top: -47px;
-  margin-left: 1275px;
+  margin-left: 1255px;
 }
 
 
@@ -317,11 +317,68 @@ input[type="text"] {
 }
 
 
+/* Estilos do botão */
+.dropbtn {
+  /* background-color: #4CAF50; */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.fg{
+  margin-top: -77px;
+  margin-left: 600px;
+}
+
+/* Estilos do dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Quando o dropdown estiver aberto, exibe os itens */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+}
+
+.navigation a { 
+  text-align: center; 
+  padding: 10px;
+}
+
+.lista{
+  margin-top: 10px;
+  height: 50px;
+  font-size: 1.1rem;
+  color: white;
+}
 
 
-
-
-/* footer {
+footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -343,4 +400,8 @@ footer a {
   footer>p {
       margin: 10px;
   }
-} */
+}
+
+.cortx{
+  color: #fff;
+}
