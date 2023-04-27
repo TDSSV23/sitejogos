@@ -21,6 +21,7 @@ body {
     background-size: cover;
     color: white;
     font-family: "Euclid Circular A","Poppins";
+
 }
 
 
@@ -58,7 +59,7 @@ h1{
 /* HEADER-TOP FIM */
 
 .card-modelo img {
-    width: 380px;
+    width: 390px;
     height: 180px;
     object-fit: cover;
   }
@@ -66,9 +67,10 @@ h1{
   .card-modelo {
     display: inline-block;
     position: relative;
-    margin: .4rem;
+    margin: 12px;
     box-shadow: 2px white;
     vertical-align: top;
+    padding: 15px;
   }
   
   .card-modelo img:hover {
