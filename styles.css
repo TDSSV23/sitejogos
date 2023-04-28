@@ -239,22 +239,8 @@ background-color: rgba(0, 0, 0, 0.8);
 }
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
-input#img-3:checked ~ .nav-dots label#img-dot-3, }
-background: rgba(0, 0, 0, 0.8);
-}
-
-
-
-.nov{
-  color: rgb(255, 255, 255);
-  font-family: sans-serif;
-  margin-left: 120px;
-  margin-top: -23px;
-  position: absolute;
-  display: flex;
-  font-size: 2rem;
-}
-
+input#img-3:checked ~ .nav-dots label#img-dot-3, 
+background rgba(0, 0, 0, 0.8);
 
 
 form {
@@ -413,3 +399,12 @@ footer a {
   color: #fff;
 }
 
+.noov{
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  margin-left: 120px;
+  margin-top: -23px;
+  position: absolute;
+  display: flex;
+  font-size: 2rem;
+}
