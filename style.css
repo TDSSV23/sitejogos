@@ -83,3 +83,85 @@ footer a {
 background-color: #8A3fa5;
 height: 400px;
 }
+
+.button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #34974d;
+    background-color: #3aa856;
+  }
+  
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    transform: translateX(30px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 35.5px;
+    background-color: #34974d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 30px;
+    stroke: #fff;
+  }
+  
+  .button:hover {
+    background: #34974d;
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .button:active .button__icon {
+    background-color: #2e8644;
+  }
+  
+  .button:active {
+    border: 1px solid #2e8644;
+  }
+
+.padd{
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+
+.centro{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.margimm{
+    margin-left: 920px;
+    margin-top: -55px;
+}
+
+.ezyy { 
+	background-color:rgba(0, 0, 0, 1);
+	width:253px;
+	height:47px;
+    margin-left: 910px;
+    margin-top: -43px;
+}
+
