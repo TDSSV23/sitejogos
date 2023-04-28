@@ -69,7 +69,6 @@ body {
     border: none;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    
   }
   
   .jb [type="submit"] i {
@@ -143,7 +142,6 @@ body {
   .bg{
     text-align: center;
   }
- 
 
   
 
@@ -174,4 +172,3 @@ footer a {
 }
 
 /* FOOTER FIM */
-
