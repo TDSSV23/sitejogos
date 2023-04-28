@@ -240,38 +240,7 @@ background-color: rgba(0, 0, 0, 0.8);
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3, 
-background rgba (0, 0, 0, 0.8);
-
-
-form {
-  display: flex;
-  align-items: center;
-}
-
-input[type="text"] {
-  padding: 10px;
-  border: none;
-  border-radius: 5px 0 0 5px;
-}
-
-.jb[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-}
-
-.jb [type="submit"] i {
-  font-size: 1.2rem;
-}
-
-.bpesquisa{
-  margin-top: -47px;
-  margin-left: 950px;
-}
-
+background rgba(0, 0, 0, 0.8);
 
 
 
@@ -399,7 +368,7 @@ footer a {
   color: #fff;
 }
 
-.noov{
+.nooov{
   color: rgb(255, 255, 255);
   font-family: sans-serif;
   margin-left: 120px;
