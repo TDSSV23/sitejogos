@@ -240,7 +240,7 @@ background-color: rgba(0, 0, 0, 0.8);
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3, 
-background rgba(0, 0, 0, 0.8);
+background-color: rgba ( 0, 0, 0, 0.8);
 
 
 
