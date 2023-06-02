@@ -253,7 +253,7 @@ background-color: rgba ( 0, 0, 0, 0.8);
 .card-modelo {
   display: inline-block;
   position: relative;
-  margin: .4rem;
+  margin: .9rem;
   box-shadow: 2px white;
   vertical-align: top;
 }
