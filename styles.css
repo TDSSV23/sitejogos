@@ -240,7 +240,12 @@ background-color: rgba(0, 0, 0, 0.8);
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3, 
+<<<<<<< Updated upstream
 background rgba(0, 0, 0, 0.8);
+=======
+
+background-color: rgba ( 0, 0, 0, 0.8);
+>>>>>>> Stashed changes
 
 
 
@@ -309,6 +314,7 @@ background rgba(0, 0, 0, 0.8);
   display: none;
   position: absolute;
   z-index: 1;
+  
 }
 
 .dropdown-content a {
@@ -433,3 +439,7 @@ footer a {
   margin-left: 975px;
   margin-top: -60px;
 }
+
+
+
+

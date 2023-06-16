@@ -125,10 +125,10 @@ body {
   .card-modelo {
     display: inline-block;
     position: relative;
-    margin: 4px;
+    margin: 2px;
     box-shadow: 2px white;
     vertical-align: top;
-    padding: 5px;
+    padding: 1px;
   }
   
   .card-modelo img:hover {
