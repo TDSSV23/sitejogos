@@ -240,7 +240,7 @@ background-color: rgba(0, 0, 0, 0.8);
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3, 
-background-color: rgba ( 0, 0, 0, 0.8);
+background rgba(0, 0, 0, 0.8);
 
 
 
@@ -253,7 +253,7 @@ background-color: rgba ( 0, 0, 0, 0.8);
 .card-modelo {
   display: inline-block;
   position: relative;
-  margin: .9rem;
+  margin: .4rem;
   box-shadow: 2px white;
   vertical-align: top;
 }
@@ -288,6 +288,12 @@ background-color: rgba ( 0, 0, 0, 0.8);
   border: none;
   cursor: pointer;
 }
+
+.cg{
+
+    margin-top: -63px;
+    margin-left: 460px;
+  }
 
 .fg{
   margin-top: -66px;
